@@ -1,0 +1,112 @@
+ /*Colors-------------------------
+  lightrexgreen #93C240
+  darkgreen     #32572C
+  darkblue      #284369
+  lightskyblue  #5FB0F1
+  monstersalmon #FA544D
+  brightyellow  #FFED3D
+  orange        #FF9653
+------------------------------------*/
+  #main_nav {
+  	margin: 0px;
+  	padding: 30px;
+  	background-color: #FA544D;
+  	text-align: center;
+
+}
+
+body {
+	margin: 0;
+	background-color:#93C240;
+}
+
+#wrapper {
+	boarder:#;
+	width: 850px;
+	margin: 0 auto;
+}
+
+h1,h2,h3,h4,h4 {
+	margin: 0;
+	padding: 20px 25px 0px;
+}
+
+h1{
+	text-align: center;
+	font-family: Flavors;Arial
+	font-size: 200;
+	font-weight: 400;
+	color:#FA544D;
+	
+	
+}
+
+p {
+	font-family: Flamenco, serif;
+	font-weight:400;
+	font-size: 14;
+	margin: 0 37px;
+}
+
+
+
+#main_script{
+	font-family: Flamenco, serif;
+	font-size:50;
+	float:right;
+	color: #FA544D;
+	width: 375px;
+	margin: 0px 0px 12px 0px;
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+}
+
+#main_graphic{
+	float:left;
+	margin:0px 5px -60px 0px;
+	background-color: #fff;
+}
+
+
+
+
+#main {
+	clear:both;
+	background:#FA544D;
+}
+
+ol{
+	font-family: Flamenco, serif;
+ 	list-style-type: none;
+ 	margin: ;
+ }
+ 
+ ul li{
+ 	font-family: Flamenco, serif;
+    display: inline;
+
+}
+
+
+
+
+
+a:link{
+	color:#32572C;
+}
+
+a:visited{
+	color: #FA544D;
+}
+
+a:hover{
+	color: #FF9653;
+}
+
+a:active{
+	color:#32572C;
+	
+footer{
+	margin:0;
+	background:#FA544D;
+}
