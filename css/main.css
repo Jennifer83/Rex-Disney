@@ -7,95 +7,14 @@
   brightyellow  #FFED3D
   orange        #FF9653
 ------------------------------------*/
-  #main_nav {
-  	margin: 0px;
-  	padding: 30px;
-  	background-color: #FA544D;
-  	text-align: center;
-
-}
-
-body {
-	margin: 0;
-	background-color:#93C240;
-}
-
-#wrapper {
-	boarder:#;
-	width: 850px;
-	margin: 0 auto;
-}
-
-h1,h2,h3,h4,h4 {
-	margin: 0;
-	padding: 20px 25px 0px;
-}
-
-h1{
-	text-align: center;
-	font-family: Flavors;Arial
-	font-size: 200;
-	font-weight: 400;
-	color:#FA544D;
-	
-	
-}
-
-p {
-	font-family: Flamenco, serif;
-	font-weight:400;
-	font-size: 14;
-	margin: 0 37px;
-}
-
-
-
-#main_script{
-	font-family: Flamenco, serif;
-	font-size:50;
-	float:right;
-	color: #FA544D;
-	width: 375px;
-	margin: 0px 0px 12px 0px;
-	background-color: #fff;
-	padding: 10px 10px 10px 10px;
-}
-
-#main_graphic{
-	float:left;
-	margin:0px 5px -60px 0px;
-	background-color: #fff;
-}
-
-
-
-
-#main {
-	clear:both;
-	background:#FA544D;
-}
-
-ol{
-	font-family: Flamenco, serif;
- 	list-style-type: none;
- 	margin: ;
- }
- 
- ul li{
- 	font-family: Flamenco, serif;
-    display: inline;
-
-}
-
-
-
-
 
 a:link{
+	text-decoration:none;
 	color:#32572C;
 }
 
 a:visited{
+	text-decoration:none;
 	color: #FA544D;
 }
 
@@ -106,7 +25,290 @@ a:hover{
 a:active{
 	color:#32572C;
 	
-footer{
-	margin:0;
-	background:#FA544D;
 }
+
+
+#button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5px 2px .55px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#button:hover {
+	text-decoration: none;
+}
+#button:active {
+	position: relative;
+	top: 1px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.salmon {
+	color: #FA544D;
+	border: solid 1px #d2729e;
+	background:  #FA544D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#feb1d3), to(#f171ab));
+	background: -moz-linear-gradient(top,  #feb1d3,  #f171ab);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
+}
+.salmon:hover {
+	background:  #FA544D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
+	background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+}
+.salmon:active {
+	color: #93C240;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f171ab), to(#feb1d3));
+	background: -moz-linear-gradient(top,  #f171ab,  #feb1d3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f171ab', endColorstr='#feb1d3');
+}
+
+ #wrapper {
+ 	border:4px double black;
+ 	box-shadow: 4px 4px black;
+	width: 935px;
+	margin: 0 auto;
+	background-color:#000;
+}
+ 
+ 
+ body {
+	margin: 0px ;
+	background-color:#93C240;
+}
+  
+  #main_nav {
+  	margin: 0px;
+  	padding: 0px;
+  	background-color: #FA544D;
+  	text-align: center;
+}
+
+
+
+h1,h3,h4,h5 {
+	margin: 0;
+	padding: 20px 25px 0px;
+}
+
+h3{
+	margin: 5px 0px 10px 0px;
+	font-family: Flamenco, arial;
+	font-size:25px;
+	color:#32572C;
+	text-align: center;
+	text-shadow: 1px 1px #FA544D;
+
+}
+
+h2 {
+	font-family: Flavors, arial;
+	text-align:center;
+	font-size: 40px;
+	font-weight: 400;
+	text-shadow: 3px 3px #93C240;
+	
+}
+
+
+h1{
+	background-color: #93C240;
+	text-align: center;
+	font-family: Flavors, arial;
+	font-size: 90px;
+	font-weight: 400;
+	text-shadow:4px 2px #000;
+	border: 3px dashed black;
+	color:#FA544D;
+	
+	
+}
+
+p {
+	font-family: Flamenco, serif;
+	font-weight:400;
+	font-size: 18px;
+	color: #32572C;
+	margin: 0 37px;
+}
+
+
+
+#main_script{
+	font-family: Flamenco, serif;
+	font-size:24px;
+	float:right;
+	color: #FA544D;
+	width: 375px;
+	height:271px;
+	margin: 10px 2px 25px -2px;
+	border: 1px solid #93C240;
+	background-color: #fff;
+	padding: 40px 15px 40px 15px;
+}
+
+#main_graphic{
+	float:left;
+	clear: right;
+	margin:10px 0px 30px 2px;
+	border: 1px solid #93C240;
+	background-color: #fff;
+	padding:;
+}
+
+
+
+
+#main {
+	clear:right;
+	margin:30px 0px;
+}
+
+#columns {
+	-moz-column-count:3;
+}
+
+ol{
+	font-family: Flamenco, serif;
+	font-weight:400;
+	font-size: 18px;
+	color:#32572C;
+ 	list-style-type: none;
+ 	text-align: center;
+ }
+ 
+ #facts{
+ 	background-color:#FA544D;
+ 	margin:60px 0px 15px 0px;
+ 	padding:0px;
+ 	text-align: center;
+ 	clear:both;
+ 	color:#000;
+ 	font-size: 40px;
+ 	border: 2px dashed #93C240;
+ }
+ 
+ #article{
+ 	margin: 15px 0px 15px 0px;
+ }
+ 
+  #history{
+ 	background-color:#FA544D;
+ 	text-align: center;
+ 	margin: 20px 0px 30px 0px;
+ 	padding: 0px;
+ 	color:#000;
+ 	font-size: 40px;
+    border: 2.5px dashed #93C240;
+ }
+ 
+   #photos{
+    background-color:#FA544D;
+ 	text-align: center;
+ 	margin:30px 0px 70px 0px;
+ 	padding:0px;
+ 	color:#000;
+ 	font-size: 40px;
+ 	border: 2.5px dashed #93C240;
+ }
+ 
+ #img1{
+ 	border: 2px solid  #93C240;
+ 	margin:10px 0px 0px 75px;
+ 	float:left;
+ 	
+ }
+ 
+ 
+ #img2{
+ 	border: 2px solid  #93C240;
+ 	float:right;
+ 	margin: 10px 75px 5px 0px;
+ 	
+ }
+ 
+ 
+ #img3{
+    border: 2px solid #93C240;
+ 	float:right;
+ 	clear:both;
+ 	margin: 35px 75px 20px 0px;
+ 	
+ }
+ 
+ #img4{
+ 	border: 2px solid  #93C240;
+ 	float:left;
+ 	clear:both;
+ 	margin: -330px 0px 40px 75px;
+ 
+ }
+
+ 	
+ 
+ ul li{
+ 	font-family: Flamenco, serif;
+ 	font-weight:400;
+	font-size: 18px;
+    display: inline;
+
+}
+
+
+
+
+
+
+	
+ 
+  
+ 
+ #form{
+ 	margin: 60px 0px 60px 0px;
+ 	background-color: white;
+ }
+ 
+  #email{
+    clear:both;
+    background-color:#FA544D;
+ 	text-align: center;
+ 	margin:70px 0px 60px 0px;
+ 	padding:0px;
+ 	color:#000;
+ 	border: 2.5px dashed #93C240;
+    font-size: 40px;
+ }
+	
+footer{
+	text-align: center;
+	background: #93C240;
+	opacity:0.8;
+	margin:0px
+	
+}
+
+
+
+
+
+
