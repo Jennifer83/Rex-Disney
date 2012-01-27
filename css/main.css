@@ -7,10 +7,23 @@
   brightyellow  #FFED3D
   orange        #FF9653
 ------------------------------------*/
+/*********************button************************/
+
+button
+{
+  font-family: Flavors, arial;
+  font-size:1.5em;
+  padding:0px 4.5px 0px 4.5px;
+  background-image:url("../images/bg_skins.jpg");
+  color:#FA544D;
+  float:right;  
+}
+
+/*********************links************************/
 
 a:link{
 	text-decoration:none;
-	color:#32572C;
+	color:#FA544D;
 }
 
 a:visited{
@@ -23,9 +36,12 @@ a:hover{
 }
 
 a:active{
-	color:#32572C;
+	color:#FF9653;
 	
 }
+
+
+/***body**/
 
  body {
 	margin: 0 auto;
@@ -35,13 +51,16 @@ a:active{
 	
 	
 }
+
+
+
 	
    ul{
 
 	width:100%;
-	margin:0 auto:
-	background-image:url("../images/green_grad.jpg");
+	margin:0 auto;
 	background-position: center;
+	background-image:url("../images/green_grad.jpg");
 	list-style-type:none;
 	padding:0;
 	overflow:hidden;
@@ -56,29 +75,12 @@ a:active{
 	width:25%;/*240px*/
 	margin:0 auto;
 	padding: 0;
-	background:#93C240;
 	background-position:center;
 	float:left;
 	overflow:hidden;
 	
 }
 
-
-a{
-	display: block;
-	width:100%
-	margin-top:.1.2625%;/*15px/960*/ 
-	margin-right:0%; 
-	margin-bottom:1.2625%;/*15px/960*/;
-	margin-left; 0%;
-	padding: 0%;
-	text-align:center;
-	text-decoration:none;
-	background:black;
-	border:.5px dashed #93C240;
-	
-}
-	
 
 ol{
 	font-family: Flamenco, serif;
@@ -87,6 +89,20 @@ ol{
  	list-style-type: none;
  	text-align: center;
 	
+}
+
+#no_nav{
+	font-family: Flamenco, serif;
+	font-weight:400;
+	font-size: 1.125em;
+ 	list-style-type: none;
+ 	text-align: center;
+ 	}
+
+
+
+
+/**wrapper**************/
 
 
  #wrapper {
@@ -98,6 +114,7 @@ ol{
 
 }
 
+/*********************headers************************/
   
 
 h1,h3,h4,h5 {
@@ -142,6 +159,9 @@ h1{
 	
 }
 
+/*********************main content************************/
+
+
 p {
 	font-family: Flamenco, serif;
 	font-weight:400;
@@ -176,12 +196,13 @@ p {
 	float:left;
 	clear: right;
 	width: 39.0625%;/*375px*/
-	margin-top:2.2371364653244%;/*10px*/
+	margin-top:5%;/*10px*/
 	margin-right:2.2371364653244%;/*10px*/ 
 	margin-bottom:4.0%;/* 25px*/
 	margin-left:.4474272930649%;/*2px*/
 	border: 1px solid #93C240;
 	background-color: #fff;
+	padding: 2%;
 }
 
 
@@ -195,14 +216,13 @@ p {
 	-moz-column-count:3;
 }
 
-
- }
+  
  
  #facts{
  	background-color:#FA544D;
  	margin-top:6.25%;/*60px/960*/
  	margin-right:0%;
- 	margin-bottom;1.5625%; /*15px*/
+ 	margin-bottom:1.5625%; /*15px*/
  	margin-left:0%;
  	padding:0%;
  	text-align: center;
@@ -220,8 +240,7 @@ p {
  
  #stanton, #shawn{
  	border:none;
- 	margin:0 auto;
- 	
+ 	margin:0 auto;	
  
  }
  
@@ -245,7 +264,7 @@ p {
  	color:#000;
  	font-size: 2.5em;
  	border: 2.5px dashed #93C240;
-    clear:left;
+    clear:both;
  }
  
    #photos{
@@ -260,6 +279,9 @@ p {
  	font-size: 2.5em;
  	border: 2.5px dashed #93C240;
  }
+ 
+ /*********************gallery photos************************/
+
  
  #left{
  	border: 1px solid  #93C240;
@@ -280,15 +302,7 @@ p {
  	overflow:hidden;
     border: 1px solid  #93C240;
  }
- 
-  
- 
- 
- }
- 
- 
- 
-/*************figure out whats wrong with my background**/
+   
 
  #email{
     background-color:#FA544D;
@@ -304,21 +318,66 @@ p {
  	overflow:hidden;
  	clear:both;
  }
- 	
-/*form place*******************************************	
- #form{
- 	margin: 60px 0px 60px 0px;
- 	background-color: white;
+ 
+ 
+/*********************table************************/
+ 
+ table{
+ 	border-collapse:collapse;
+ 	border:3px dashed black;
+ 	margin-left:23%;
+ 	clear:both;
  }
+ 	
+td{
+	border:3px dashed black;	
+	padding:.5em;
+	color:#93C240;
+}
+
+th{
+	text-align:left;
+	background-color:#FA544D;
+	padding:.5em;
+}
+
+dl{
+		float:right;
+		color:#93C240;
+}
 
 
-******************************************************/
+#color_change{
+	color:#FA544D;
+}
+
+
+/*********************form************************/
+
+form{
+	margin-top:0%;
+	margin-right:0%;
+	margin-bottom:5%;
+	overflow:hidden;
+	clear:both;
+}
+
+#button2{
+	margin-top:0;
+	margin-right:20%;
+	margin-bottom:10%;
+	margin-left:0;
+	font-size: 2.5em;
+	padding: 2px;
+	
+}
 	
 footer{
 	text-align: center;
 	background: #93C240;
 	opacity:0.8;
-	margin:0 auto;
+	margin-top:5%;
+	
 	
 }
 
@@ -326,32 +385,58 @@ footer{
 =============================================*/
 
     /*Tablet Port. size to standard 960 ( devices and browsers)*/
-    @media screen(min-width:768px) and (max-width:959px) {
-    #main_graphic, main_script, div ,nav ,section {float:none}
-    
-  
+    @media only screen and (min-width:768px) and (max-width:959px) {
+        
   }
   
     /*Mobile Landscape Size to Tablet Portait (device and browswers) */
     @media only screen and (min-width: 480px) and (max-width:767px){
+    body {background-image: none}
     body {background-color:black}
-    body {background-image:none}
-    h1{ background-image:none}
-    h1{font-size: 1.125em}/*18*/
-
-  }
+    #wrapper {border:none}
+    #wrapper {box-shadow:none}        
+    #columns {-moz-column-count:1}
+    #main_script {padding:0}
+    #main_ graphic{padding:0}    
+    
+ }
   
     /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
     @media only screen and (max-width: 479px) {
-    #main_graphic{ display:none}
-    #left{ display:none}
-    #right{ display:none}
-    #main_graphic, main_script, div ,nav ,section {float:none}
-    h1{ background-image:none}
-    h1{font-size: 1.125em}/*18*/
-  
-  }
-
+    #columns {-moz-column-count:1}
+    body {background-image: none}
+    body {background-color:#FA544D}
+    #wrapper {border:none}
+    #wrapper {box-shadow:none} 
+    #facts{background-color:black}
+    #history {background-color:black}
+    #email {background-color:black}
+    #photos {background-color:black}
+    #main_script {background-color:black}
+    h1,h2 { background-image:none}
+    h1,h2,h3 {font-size: 1.125em}/*18*/
+    h1,h2 {padding:0}
+    #main_script {padding:0}
+    #main_ graphic {padding:0}
+    #left{padding:0}
+    #right{padding:0}
+    #main_script{border:none}
+    #main_ graphic{border:none}
+    #left{border:none}
+    #right {border:none}
+    #main_script{display:none}
+    #main_graphic{display:none} 
+    #left{display:none} 
+    #right {display:none}
+    #main_graphic {float:none}
+    #main_script {float:none}
+    div {float:none}
+    nav {float:none}
+    section{float:none}
+    #left {float:none}
+    #right {float:none}
+      
+}
 
 
 
